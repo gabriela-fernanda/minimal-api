@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Projetos\\C#\\DIO\\BootCampWex\\TrabalhandoComASP.NETMinimalsAPIs\\minimal-api\\minimal-api.csproj": {}
+    "C:\\Projetos\\C#\\DIO\\BootCampWex\\TrabalhandoComASP.NETMinimalsAPIs\\minimal-api\\minimal-api.csproj": {}
   },
   "projects": {
-    "c:\\Projetos\\C#\\DIO\\BootCampWex\\TrabalhandoComASP.NETMinimalsAPIs\\minimal-api\\minimal-api.csproj": {
+    "C:\\Projetos\\C#\\DIO\\BootCampWex\\TrabalhandoComASP.NETMinimalsAPIs\\minimal-api\\minimal-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Projetos\\C#\\DIO\\BootCampWex\\TrabalhandoComASP.NETMinimalsAPIs\\minimal-api\\minimal-api.csproj",
+        "projectUniqueName": "C:\\Projetos\\C#\\DIO\\BootCampWex\\TrabalhandoComASP.NETMinimalsAPIs\\minimal-api\\minimal-api.csproj",
         "projectName": "minimal-api",
-        "projectPath": "c:\\Projetos\\C#\\DIO\\BootCampWex\\TrabalhandoComASP.NETMinimalsAPIs\\minimal-api\\minimal-api.csproj",
+        "projectPath": "C:\\Projetos\\C#\\DIO\\BootCampWex\\TrabalhandoComASP.NETMinimalsAPIs\\minimal-api\\minimal-api.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "c:\\Projetos\\C#\\DIO\\BootCampWex\\TrabalhandoComASP.NETMinimalsAPIs\\minimal-api\\obj\\",
+        "outputPath": "C:\\Projetos\\C#\\DIO\\BootCampWex\\TrabalhandoComASP.NETMinimalsAPIs\\minimal-api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.4, )"
@@ -64,6 +68,10 @@
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[8.1.4, )"
             }
           },
           "imports": [
